@@ -1,0 +1,16 @@
+
+.github-glow {
+    box-shadow:
+      0 0 0 1px rgba(56, 139, 253, 0.15), /* Inner border-like shadow */
+      0 0 10px 2px rgba(56, 139, 253, 0.15), /* Soft glow */
+      0 0 20px 5px rgba(56, 139, 253, 0.1); /* Outer spread glow */
+    border-radius: 6px; /* Optional: Rounded corners like GitHub */
+    transition: box-shadow 0.2s ease-in-out; /* Smooth transition for hover effects */
+  }
+  
+  .github-glow:hover {
+    box-shadow:
+      0 0 0 1px rgba(56, 139, 253, 0.3),
+      0 0 15px 5px rgba(56, 139, 253, 0.2),
+      0 0 25px 10px rgba(56, 139, 253, 0.15); /* Enhanced glow on hover */
+  }
