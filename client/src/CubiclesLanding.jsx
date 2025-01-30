@@ -248,6 +248,19 @@ const CubiclesLanding = () => {
                 Starting February 1, 2025
               </span>
             </motion.div>
+            {/* Registration Button */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={controls}
+              transition={{ delay: 0.8 }}
+            >
+              <a
+                href="https://forms.gle/tnGo4a4acXZQVEic6"
+                className="inline-flex items-center justify-center px-8 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-full hover:from-blue-600 hover:to-indigo-700 transition-all"
+              >
+                Register Now
+              </a>
+            </motion.div>
           </div>
         </div>
       </div>
