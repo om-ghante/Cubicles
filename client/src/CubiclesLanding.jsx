@@ -245,7 +245,7 @@ const CubiclesLanding = () => {
             >
               <Timer className="w-4 h-4" />
               <span className="text-sm font-medium">
-                Starting February 1, 2025
+                Starting February 8, 2025
               </span>
             </motion.div>
             {/* Registration Button */}
